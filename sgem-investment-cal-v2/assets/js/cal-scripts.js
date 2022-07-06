@@ -81,7 +81,7 @@ var sgem_main_contents = '<div class="sgem-cal-wrapper">' +
 
  $(function () { 
 	$('#sgem-retirement-cal-main-id').html(sgem_main_contents);
-	tippy('.sgem-goal-tooltip, .sgem-tooltip', {animation: 'sacle',boundary: 'viewport',allowHTML: true,arrow: true,placement: 'top',size:'large',theme: 'sgem-goal',trigger: 'click',  });
+	tippy('.sgem-goal-tooltip, .sgem-tooltip', {animation: 'sacle',theme: 'light-border', boundary: 'viewport',allowHTML: true,arrow: true,placement: 'top',size:'large',trigger: 'click',  });
  
 ///===================================================	
   if($('#sgem_pretax_income').length > 0) {
