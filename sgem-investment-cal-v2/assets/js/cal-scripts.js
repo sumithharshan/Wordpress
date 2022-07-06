@@ -81,8 +81,9 @@ var sgem_main_contents = '<div class="sgem-cal-wrapper">' +
 
  $(function () { 
 	$('#sgem-retirement-cal-main-id').html(sgem_main_contents);
-	tippy('.sgem-goal-tooltip, .sgem-tooltip', {animation: 'sacle',theme: 'light-border', boundary: 'viewport',allowHTML: true,arrow: true,placement: 'top',size:'large',trigger: 'click',  });
- 
+	tippy('.sgem-goal-tooltip, .sgem-tooltip', {animation: 'sacle',theme: 'sgem-goal', boundary: 'viewport',allowHTML: true,arrow: true,placement: 'top',size:'large',trigger: 'click',  });
+    tippy('.sgem-tooltip', {animation: 'sacle',theme: 'light-border', boundary: 'viewport',allowHTML: true,arrow: true,placement: 'top',size:'large',trigger: 'click',  });
+
 ///===================================================	
   if($('#sgem_pretax_income').length > 0) {
     $('#sgem_pretax_income').on('keyup', function () {
@@ -282,7 +283,6 @@ var sgem_main_contents = '<div class="sgem-cal-wrapper">' +
   
 
 //============================================================
- 
 
 	/*$('input.inputnumber').keyup(function(event) {
 	  if (event.which >= 37 && event.which <= 40) return;
