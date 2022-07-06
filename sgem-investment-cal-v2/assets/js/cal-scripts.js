@@ -76,12 +76,13 @@ var sgem_main_contents = '<div class="sgem-cal-wrapper">' +
 	 '<a href="https://retirementinvestments.com/retirable" target="_blank" class="sgem-getStart">GET STARTED</a></div></div>'+
       '<div class="sgem-logo-center">Retirement calculator by'+
         '<a class="sgem-logo-image" href="https://retirementinvestments.com/" target="_blank" rel="noopener">'+
-      '<img src="/wp-content/plugins/sgem-investment-cal/assets/images/Retirement-Investments-8.png" alt="Retirement calculator Logo" /></a></div></div></div></div>';    
-$(function(){
+      '<img src="/wp-content/plugins/sgem-investment-cal/assets/images/Retirement-Investments-8.png" alt="Retirement calculator Logo" /></a></div></div></div></div>';
+
+
+ $(function () { 
 	$('#sgem-retirement-cal-main-id').html(sgem_main_contents);
-	tippy('.sgem-goal-tooltip', {animation: 'sacle',allowHTML: true,arrow: true,placement: 'top',size:'large',theme: 'sgem-goal',trigger: 'click',  });
-	     
-	$(function () { 
+	tippy('.sgem-goal-tooltip, .sgem-tooltip', {animation: 'sacle',boundary: 'viewport',allowHTML: true,arrow: true,placement: 'top',size:'large',theme: 'sgem-goal',trigger: 'click',  });
+ 
 ///===================================================	
   if($('#sgem_pretax_income').length > 0) {
     $('#sgem_pretax_income').on('keyup', function () {
@@ -281,13 +282,7 @@ $(function(){
   
 
 //============================================================
-	 //tippy('[data-tippy-content]');
-	
-	tippy('.sgem-tooltip', {  
-	  arrow: true, theme: 'light-border',
-	  trigger: 'click', 
-	});
-
+ 
 
 	/*$('input.inputnumber').keyup(function(event) {
 	  if (event.which >= 37 && event.which <= 40) return;
@@ -597,11 +592,11 @@ var current_age     = $('#sgem_age').val().trim();
   }
     
   var messageBox = document.getElementById('messagetitle');
-  messageBox.innerHTML= messagetitle;
+  	messageBox.innerHTML= messagetitle;
   var messageBox = document.getElementById('mainmessage');
-  messageBox.innerHTML= mainmessage;
+  	messageBox.innerHTML= mainmessage;
   var messageBox = document.getElementById('message');
-  messageBox.innerHTML= message;
+  	messageBox.innerHTML= message;
   
 }
 
