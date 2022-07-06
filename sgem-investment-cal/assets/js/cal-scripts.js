@@ -72,7 +72,8 @@ var sgem_main_contents = '<div class="sgem-cal-wrapper">' +
       '<div id="messagetitle">'+
       'Let\'s get Future You </div> <div id="mainmessage">out of the red.</div>'+
         '<div id="message">There are a few steps you could take to jumpstart your retirement savings. Create an account to reduce your bills, eliminate debt and grow your money.</div>'+
-     '<a href="#" class="sgem-getStart">GET STARTED</a></div></div>'+
+     '<div class="sgem-cal-static-text">Spend retirement with more. Enjoy monthly income through retirement with the confidence your savings will last.</div>'+
+	 '<a href="https://retirementinvestments.com/retirable" target="_blank" class="sgem-getStart">GET STARTED</a></div></div>'+
       '<div class="sgem-logo-center">Retirement calculator by'+
         '<a class="sgem-logo-image" href="https://retirementinvestments.com/" target="_blank" rel="noopener">'+
       '<img src="/wp-content/plugins/sgem-investment-cal/assets/images/Retirement-Investments-8.png" alt="Retirement calculator Logo" /></a></div></div></div></div>';    
