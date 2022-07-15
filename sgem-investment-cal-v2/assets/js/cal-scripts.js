@@ -71,7 +71,7 @@ var sgem_main_contents = '<div class="sgem-cal-wrapper">' +
         '<div class="sgem-cal-1-result-footer">'+
       '<div id="messagetitle">'+
       'Let\'s get Future You </div> <div id="mainmessage">out of the red.</div>'+
-        '<div id="message">There are a few steps you could take to jumpstart your retirement savings. Create an account to reduce your bills, eliminate debt and grow your money.</div>'+
+        //'<div id="message">There are a few steps you could take to jumpstart your retirement savings. Create an account to reduce your bills, eliminate debt and grow your money.</div>'+
      '<div class="sgem-cal-static-text">Spend retirement with more. Enjoy monthly income through retirement with the confidence your savings will last.</div>'+
 	 '<a href="https://retirementinvestments.com/retirable" target="_blank" class="sgem-getStart">GET STARTED</a></div></div>'+
       '<div class="sgem-logo-center">Retirement calculator by'+
@@ -595,8 +595,8 @@ var current_age     = $('#sgem_age').val().trim();
   	messageBox.innerHTML= messagetitle;
   var messageBox = document.getElementById('mainmessage');
   	messageBox.innerHTML= mainmessage;
-  var messageBox = document.getElementById('message');
-  	messageBox.innerHTML= message;
+  //var messageBox = document.getElementById('message');
+  	//messageBox.innerHTML= message;
   
 }
 
