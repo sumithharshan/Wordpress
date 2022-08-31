@@ -17,5 +17,5 @@ function sh_uni_add_schedule(){
 add_action( 'sh_task_hook', 'sh_task_function');
 function sh_task_function() {
 	wp_mail( 'sumith.harshan@gmail.com', 'Automatic Email', 'Automatic scheduled email from WordPress.');
-}
+}  
 ?>
