@@ -68,6 +68,6 @@ function uploadImageByUrl($image_url=NULL, $name=NULL, $alt=NULL){
 	$image_url = 'https://smithwebstore.com/wp-content/uploads/2022/02/logo-blue.png';
 	$name = 'smith_webstore_logo';
 	$alt = 'Smith WebStore Logo';
-	uploadImageByUrl($image_url, $name, $alt;
+	$attach_id = uploadImageByUrl($image_url, $name, $alt;
 		
 ?>		
