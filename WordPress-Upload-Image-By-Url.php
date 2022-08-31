@@ -69,5 +69,8 @@ function uploadImageByUrl($image_url=NULL, $name=NULL, $alt=NULL){
 	$name = 'smith_webstore_logo';
 	$alt = 'Smith WebStore Logo';
 	$attach_id = uploadImageByUrl($image_url, $name, $alt;
+	
+	//assign featured image to post
+	set_post_thumbnail( $post_id, $attach_id );
 		
 ?>		
